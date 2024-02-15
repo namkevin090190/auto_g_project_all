@@ -1,0 +1,9 @@
+{
+  "Language": "python",
+  "Plugins": [
+    "html-report",
+    "xml-report",
+    "json-report",
+    "spectacle"
+  ]
+}

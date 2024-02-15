@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/Base32String.java</name>
+			<type>1</type>
+			<location>//home/runner/JauntyOpaqueInstructionset/Base32String.java</location>
+		</link>
+		<link>
+			<name>src/CryptoUtil.java</name>
+			<type>1</type>
+			<location>//home/runner/JauntyOpaqueInstructionset/CryptoUtil.java</location>
+		</link>
+		<link>
+			<name>src/Main.java</name>
+			<type>1</type>
+			<location>/home/runner/JauntyOpaqueInstructionset/Main.java</location>
+		</link>
+		<link>
+			<name>src/PasscodeGenerator.java</name>
+			<type>1</type>
+			<location>//home/runner/JauntyOpaqueInstructionset/PasscodeGenerator.java</location>
+		</link>
+		<link>
+			<name>src/TotpUtil.java</name>
+			<type>1</type>
+			<location>//home/runner/JauntyOpaqueInstructionset/TotpUtil.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,189 @@
+# [API][PostingInstruction] Get balance and info of <account_id>, then transfer at time stamp <current_time_stamp> with data - amount <amount> - from account id <debtor_account_id> - to account id <creator_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Transfer at time stamp <current_time_stamp> with data - amount <amount> - from account id <debtor_account_id> - to account id <creator_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id>, then Outbound Hard Settlement at time stamp <current_time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Outbound Hard Settlement at time stamp <current_time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id>, then Inbound Hard Settlement at time stamp <current_time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Inbound Hard Settlement at time stamp <current_time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id>, then Authorisation at time stamp <current_time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Authorisation at time stamp <current_time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id>, then Settlement at time stamp <current_time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code> - client transaction id order <order_num_or_latest_num>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Settlement at time stamp <current_time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code> - client transaction id order <order_num_or_latest_num>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id> at pause time <pause_time>, then transfer at time stamp <time_stamp> with data - amount <amount> - from account id <current_account_id> - to account id <default_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id> with pause time <pause_time>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Transfer at time stamp <time_stamp> with data - amount <amount> - from account id <current_account_id> - to account id <default_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id> at pause time <pause_time>, then Outbound Hard Settlement at time stamp <time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id> with pause time <pause_time>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Outbound Hard Settlement at time stamp <time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id> at pause time <pause_time>, then Authorisation at time stamp <time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id> with pause time <pause_time>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Authorisation at time stamp <time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id> at pause time <pause_time>, then Settlement at time stamp <time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code> - client transaction id order <order_num_or_latest_num>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id> with pause time <pause_time>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Settlement at time stamp <time_stamp> with data - amount <amount> - account id <current_account_id> - transaction code <trx_code> - client transaction id order <order_num_or_latest_num>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id>, then Release at time stamp <time_stamp> with data - account id <current_account_id> - transaction code <trx_code> - client transaction id order <order_num_or_latest_num>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Release at time stamp <time_stamp> with data - transaction code <trx_code> - client transaction id order <order_num_or_latest_num>
+* [API][Common] Sleep "5" seconds
+
+# [API][PostingInstruction] Get balance and info of <account_id> at pause time <pause_time>, then Release at time stamp <time_stamp> with data - account id <current_account_id> - transaction code <trx_code> - client transaction id order <order_num_or_latest_num>
+* [API][Common] Sleep "2" seconds
+* [API][Balances] Get balances of <account_id>
+* [API][CASA] Get CASA account with id <account_id> with pause time <pause_time>
+* [API][Common] Sleep "2" seconds
+* [API][PostingInstruction] Release at time stamp <time_stamp> with data - transaction code <trx_code> - client transaction id order <order_num_or_latest_num>
+* [API][Common] Sleep "5" seconds
+
+# [API][CASA] Verify account <kyc> - daily limit of CASA account with id <current_account_id> should be correct after making transaction - <vtv_success_fail>, <vth_success_fail>, <vtn_success_fail>, <internal_success_fail>, <dom_success_fail>, <frg_success_fail>, <ebank_success_fail>, <card_success_fail>, <casa_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_VIKKI" of CASA account with id <current_account_id> should be correct after making transaction - <vtv_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_HDBANK" of CASA account with id <current_account_id> should be correct after making transaction - <vth_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_NAPAS" of CASA account with id <current_account_id> should be correct after making transaction - <vtn_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "INTERNAL_TRANSFER" of CASA account with id <current_account_id> should be correct after making transaction - <internal_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after making transaction - <dom_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_FX_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after making transaction - <frg_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after making transaction - <ebank_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CARD" of CASA account with id <current_account_id> should be correct after making transaction - <card_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CASA" of CASA account with id <current_account_id> should be correct after making transaction - <casa_success_fail>
+
+# [API][CASA] Verify account <kyc> - monthly limit of CASA account with id <current_account_id> should be correct after making transaction - <ebank_success_fail>, <card_success_fail>, <casa_success_fail>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after making transaction - <ebank_success_fail>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CARD" of CASA account with id <current_account_id> should be correct after making transaction - <card_success_fail>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CASA" of CASA account with id <current_account_id> should be correct after making transaction - <casa_success_fail>
+
+# [API][CASA] Verify account <kyc> - daily limit of CASA account with id <current_account_id> at pause time <pause_time> should be correct after making transaction - <vtv_success_fail>, <vth_success_fail>, <vtn_success_fail>, <internal_success_fail>, <dom_success_fail>, <frg_success_fail>, <ebank_success_fail>, <card_success_fail>, <casa_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_VIKKI" of CASA account with id <current_account_id> should be correct after making transaction - <vtv_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_HDBANK" of CASA account with id <current_account_id> should be correct after making transaction - <vth_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_NAPAS" of CASA account with id <current_account_id> should be correct after making transaction - <vtn_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "INTERNAL_TRANSFER" of CASA account with id <current_account_id> should be correct after making transaction - <internal_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after making transaction - <dom_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_FX_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after making transaction - <frg_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after making transaction - <ebank_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CARD" of CASA account with id <current_account_id> should be correct after making transaction - <card_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CASA" of CASA account with id <current_account_id> should be correct after making transaction - <casa_success_fail> with pause time <pause_time>
+
+# [API][CASA] Verify account <kyc> - monthly limit of CASA account with id <current_account_id> at pause time <pause_time> should be correct after making transaction - <ebank_success_fail>, <card_success_fail>, <casa_success_fail>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after making transaction - <ebank_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CARD" of CASA account with id <current_account_id> should be correct after making transaction - <card_success_fail> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CASA" of CASA account with id <current_account_id> should be correct after making transaction - <casa_success_fail> with pause time <pause_time>
+
+# [API][CASA] Verify account <kyc> - daily limit of CASA account with id <current_account_id> at pause time <pause_time> should be full limit
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_VIKKI" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_HDBANK" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_NAPAS" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "INTERNAL_TRANSFER" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_FX_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "E_BANKING" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CARD" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CASA" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+
+# [API][CASA] Verify account <kyc> - monthly limit of CASA account with id <current_account_id> at pause time <pause_time> should be full limit
+* [API][CASA] Verify account <kyc> - "monthly" limit - "E_BANKING" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CARD" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CASA" of CASA account with id <current_account_id> should be full limit with pause time <pause_time>
+
+# [API][CASA] Verify account <kyc> - monthly limit of CASA account with id <current_account_id> should be full limit
+* [API][CASA] Verify account <kyc> - "monthly" limit - "E_BANKING" of CASA account with id <current_account_id> should be full limit
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CARD" of CASA account with id <current_account_id> should be full limit
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CASA" of CASA account with id <current_account_id> should be full limit
+
+# [API][CASA] Verify account EKYC - daily limit of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "daily" limit - "VIKKI_TO_VIKKI" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "daily" limit - "VIKKI_TO_HDBANK" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "daily" limit - "VIKKI_TO_NAPAS" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "daily" limit - "INTERNAL_TRANSFER" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "daily" limit - "VIRTUAL_CARD_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "daily" limit - "VIRTUAL_CARD_FX_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "daily" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "daily" limit - "CARD" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "daily" limit - "CASA" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+
+# [API][CASA] Verify account EKYC - monthly limit of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "monthly" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "monthly" limit - "CARD" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+* [API][CASA] Verify account EKYC - "monthly" limit - "CASA" of CASA account with id <current_account_id> should be correct after upgrading to VKYC
+
+# [API][CASA] Verify account <kyc> - daily limit of CASA account with id <current_account_id> should be correct after making release - client transaction id order <order_num|latest_num> - <vtv_success_fail>, <vth_success_fail>, <vtn_success_fail>, <internal_success_fail>, <dom_success_fail>, <frg_success_fail>, <ebank_success_fail>, <card_success_fail>, <casa_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_VIKKI" of CASA account with id <current_account_id> should be correct after making release - <vtv_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_HDBANK" of CASA account with id <current_account_id> should be correct after making release - <vth_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_NAPAS" of CASA account with id <current_account_id> should be correct after making release - <vtn_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "daily" limit - "INTERNAL_TRANSFER" of CASA account with id <current_account_id> should be correct after making release - <internal_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after making release - <dom_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_FX_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after making release - <frg_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "daily" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after making release - <ebank_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CARD" of CASA account with id <current_account_id> should be correct after making release - <card_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CASA" of CASA account with id <current_account_id> should be correct after making release - <casa_success_fail> - client transaction id order <order_num|latest_num>
+
+# [API][CASA] Verify account <kyc> - monthly limit of CASA account with id <current_account_id> should be correct after making release - client transaction id order <order_num|latest_num> - <ebank_success_fail>, <card_success_fail>, <casa_success_fail>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after making release - <ebank_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CARD" of CASA account with id <current_account_id> should be correct after making release - <card_success_fail> - client transaction id order <order_num|latest_num>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CASA" of CASA account with id <current_account_id> should be correct after making release - <casa_success_fail> - client transaction id order <order_num|latest_num>
+
+# [API][CASA] Verify account <kyc> - daily limit of CASA account with id <current_account_id> at pause time <pause_time> should be correct after making release - client transaction id order <order_num|latest_num> - <vtv_success_fail>, <vth_success_fail>, <vtn_success_fail>, <internal_success_fail>, <dom_success_fail>, <frg_success_fail>, <ebank_success_fail>, <card_success_fail>, <casa_success_fail>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_VIKKI" of CASA account with id <current_account_id> should be correct after making release - <vtv_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_HDBANK" of CASA account with id <current_account_id> should be correct after making release - <vth_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIKKI_TO_NAPAS" of CASA account with id <current_account_id> should be correct after making release - <vtn_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "INTERNAL_TRANSFER" of CASA account with id <current_account_id> should be correct after making release - <internal_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after making release - <dom_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "VIRTUAL_CARD_FX_CARD_NOT_PRESENT" of CASA account with id <current_account_id> should be correct after making release - <frg_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after making release - <ebank_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CARD" of CASA account with id <current_account_id> should be correct after making release - <card_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "daily" limit - "CASA" of CASA account with id <current_account_id> should be correct after making release - <casa_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+
+# [API][CASA] Verify account <kyc> - monthly limit of CASA account with id <current_account_id> at pause time <pause_time> should be correct after making release - client transaction id order <order_num|latest_num> - <ebank_success_fail>, <card_success_fail>, <casa_success_fail>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "E_BANKING" of CASA account with id <current_account_id> should be correct after making release - <ebank_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CARD" of CASA account with id <current_account_id> should be correct after making release - <card_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+* [API][CASA] Verify account <kyc> - "monthly" limit - "CASA" of CASA account with id <current_account_id> should be correct after making release - <casa_success_fail> - client transaction id order <order_num|latest_num> with pause time <pause_time>
+
